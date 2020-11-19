@@ -62,3 +62,18 @@ while int(x) <= int(i) or int(y) == 0:
 print(" " * z, "||")
 print(" " * z, "||")
 print("done")
+
+# **************************************** GUESSING GAME ******************************************
+i = 0
+while i < 3:
+    guess = input("Guess : ")
+    if guess == 9:
+        print("You guessed it right ! ")
+        i = 4
+    elif i == 3:
+        print("YOU failed ")
+    else:
+        print("Try Again ")
+        i = i+1
+
+# ********************************************************************************************************
